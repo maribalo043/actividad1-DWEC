@@ -1,10 +1,11 @@
 var numeroEntrante = prompt("Dame un numero entero positivo para darte su sumatorio");
 
-numeroEntrante = parseInt(numero);
+numeroEntrante = parseInt(numeroEntrante);
 
 while(!esPositivo){
     numeroEntrante = prompt("Te has equivocado necesito un numero entero positivo, a ser posible superior a 2");
 }
+
 function esEntero(numero){
     var esEntero = false;
     if(numero == parseInt(numero)){
